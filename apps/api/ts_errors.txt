@@ -1,0 +1,41 @@
+﻿prisma/seed.ts(53,100): error TS2353: Object literal may only specify known properties, and 'color' does not exist in type '(Without<CategoryCreateInput, CategoryUncheckedCreateInput> & CategoryUncheckedCreateInput) | (Without<...> & CategoryCreateInput)'.
+prisma/seed.ts(54,94): error TS2353: Object literal may only specify known properties, and 'color' does not exist in type '(Without<CategoryCreateInput, CategoryUncheckedCreateInput> & CategoryUncheckedCreateInput) | (Without<...> & CategoryCreateInput)'.
+prisma/seed.ts(55,102): error TS2353: Object literal may only specify known properties, and 'color' does not exist in type '(Without<CategoryCreateInput, CategoryUncheckedCreateInput> & CategoryUncheckedCreateInput) | (Without<...> & CategoryCreateInput)'.
+prisma/seed.ts(56,92): error TS2353: Object literal may only specify known properties, and 'color' does not exist in type '(Without<CategoryCreateInput, CategoryUncheckedCreateInput> & CategoryUncheckedCreateInput) | (Without<...> & CategoryCreateInput)'.
+prisma/seed.ts(57,96): error TS2353: Object literal may only specify known properties, and 'color' does not exist in type '(Without<CategoryCreateInput, CategoryUncheckedCreateInput> & CategoryUncheckedCreateInput) | (Without<...> & CategoryCreateInput)'.
+prisma/seed.ts(58,94): error TS2353: Object literal may only specify known properties, and 'color' does not exist in type '(Without<CategoryCreateInput, CategoryUncheckedCreateInput> & CategoryUncheckedCreateInput) | (Without<...> & CategoryCreateInput)'.
+prisma/seed.ts(172,161): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(173,151): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(174,155): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(175,167): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(176,175): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(177,161): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(190,181): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(191,162): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(192,166): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(193,168): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(194,160): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(207,162): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(208,168): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(209,168): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(210,160): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(211,160): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(269,157): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(270,153): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(271,156): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(272,150): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(285,169): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(286,169): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(287,161): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(288,156): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(289,159): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(339,170): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(340,164): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(341,162): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(342,159): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(343,162): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(392,164): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(393,159): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(394,161): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(395,154): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.
+prisma/seed.ts(396,172): error TS2353: Object literal may only specify known properties, and 'isPublished' does not exist in type 'LessonUncheckedCreateWithoutSectionInput'.

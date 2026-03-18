@@ -1,0 +1,115 @@
+2026-03-18 06:30:39.284 IST [7788] LOG:  starting PostgreSQL 17.7 on x86_64-windows, compiled by msvc-19.44.35219, 64-bit
+2026-03-18 06:30:39.291 IST [7788] LOG:  listening on IPv6 address "::1", port 5435
+2026-03-18 06:30:39.291 IST [7788] LOG:  listening on IPv4 address "127.0.0.1", port 5435
+2026-03-18 06:30:39.368 IST [28248] LOG:  database system was shut down at 2026-03-18 06:30:09 IST
+2026-03-18 06:30:39.440 IST [7788] LOG:  database system is ready to accept connections
+2026-03-18 06:32:53.977 IST [4520] ERROR:  relation "_prisma_migrations" does not exist at character 126
+2026-03-18 06:32:53.977 IST [4520] STATEMENT:  SELECT "id", "checksum", "finished_at", "migration_name", "logs", "rolled_back_at", "started_at", "applied_steps_count" FROM "_prisma_migrations" ORDER BY "started_at" ASC
+2026-03-18 06:32:54.366 IST [1112] LOG:  checkpoint starting: immediate force wait
+2026-03-18 06:32:54.625 IST [1112] LOG:  checkpoint complete: wrote 993 buffers (6.1%); 1 WAL file(s) added, 0 removed, 0 recycled; write=0.038 s, sync=0.150 s, total=0.260 s; sync files=309, longest=0.002 s, average=0.001 s; distance=9247 kB, estimate=9247 kB; lsn=0/1E7A340, redo lsn=0/1E7A2E8
+2026-03-18 06:32:55.158 IST [1112] LOG:  checkpoint starting: immediate force wait
+2026-03-18 06:32:55.174 IST [1112] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.004 s, sync=0.003 s, total=0.017 s; sync files=4, longest=0.001 s, average=0.001 s; distance=4576 kB, estimate=8780 kB; lsn=0/22F26E8, redo lsn=0/22F2690
+2026-03-18 06:32:55.603 IST [1112] LOG:  checkpoint starting: immediate force wait
+2026-03-18 06:32:55.641 IST [1112] LOG:  checkpoint complete: wrote 50 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.007 s, sync=0.024 s, total=0.038 s; sync files=41, longest=0.002 s, average=0.001 s; distance=4735 kB, estimate=8376 kB; lsn=0/2792460, redo lsn=0/2792408
+2026-03-18 06:32:56.033 IST [1112] LOG:  checkpoint starting: immediate force wait
+2026-03-18 06:32:56.044 IST [1112] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.003 s, total=0.011 s; sync files=4, longest=0.001 s, average=0.001 s; distance=4577 kB, estimate=7996 kB; lsn=0/2C0A9D8, redo lsn=0/2C0A980
+2026-03-18 06:32:56.272 IST [4520] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:33:02.213 IST [25836] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:33:02.224 IST [24180] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:33:02.253 IST [20460] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:37:56.058 IST [1112] LOG:  checkpoint starting: time
+2026-03-18 06:38:11.692 IST [1112] LOG:  checkpoint complete: wrote 142 buffers (0.9%); 0 WAL file(s) added, 0 removed, 0 recycled; write=15.422 s, sync=0.195 s, total=15.635 s; sync files=155, longest=0.009 s, average=0.002 s; distance=864 kB, estimate=7283 kB; lsn=0/2CE2A30, redo lsn=0/2CE29A0
+2026-03-18 06:38:43.354 IST [16280] ERROR:  character with byte sequence 0xf0 0x9f 0x93 0xb1 in encoding "UTF8" has no equivalent in encoding "WIN1252"
+2026-03-18 06:38:43.354 IST [16280] CONTEXT:  unnamed portal parameter $4
+2026-03-18 06:38:43.354 IST [16280] STATEMENT:  INSERT INTO "public"."categories" ("id","name","slug","icon","createdAt") VALUES ($1,$2,$3,$4,$5) RETURNING "public"."categories"."id", "public"."categories"."name", "public"."categories"."slug", "public"."categories"."description", "public"."categories"."icon", "public"."categories"."parentId", "public"."categories"."createdAt"
+2026-03-18 06:38:43.354 IST [22904] ERROR:  character with byte sequence 0xf0 0x9f 0x8e 0xa8 in encoding "UTF8" has no equivalent in encoding "WIN1252"
+2026-03-18 06:38:43.354 IST [22904] CONTEXT:  unnamed portal parameter $4
+2026-03-18 06:38:43.354 IST [22904] STATEMENT:  INSERT INTO "public"."categories" ("id","name","slug","icon","createdAt") VALUES ($1,$2,$3,$4,$5) RETURNING "public"."categories"."id", "public"."categories"."name", "public"."categories"."slug", "public"."categories"."description", "public"."categories"."icon", "public"."categories"."parentId", "public"."categories"."createdAt"
+2026-03-18 06:38:43.354 IST [26920] ERROR:  character with byte sequence 0xf0 0x9f 0x93 0x8a in encoding "UTF8" has no equivalent in encoding "WIN1252"
+2026-03-18 06:38:43.354 IST [26920] CONTEXT:  unnamed portal parameter $4
+2026-03-18 06:38:43.354 IST [26920] STATEMENT:  INSERT INTO "public"."categories" ("id","name","slug","icon","createdAt") VALUES ($1,$2,$3,$4,$5) RETURNING "public"."categories"."id", "public"."categories"."name", "public"."categories"."slug", "public"."categories"."description", "public"."categories"."icon", "public"."categories"."parentId", "public"."categories"."createdAt"
+2026-03-18 06:38:43.354 IST [12372] ERROR:  character with byte sequence 0xf0 0x9f 0x8c 0x90 in encoding "UTF8" has no equivalent in encoding "WIN1252"
+2026-03-18 06:38:43.354 IST [12372] CONTEXT:  unnamed portal parameter $4
+2026-03-18 06:38:43.354 IST [12372] STATEMENT:  INSERT INTO "public"."categories" ("id","name","slug","icon","createdAt") VALUES ($1,$2,$3,$4,$5) RETURNING "public"."categories"."id", "public"."categories"."name", "public"."categories"."slug", "public"."categories"."description", "public"."categories"."icon", "public"."categories"."parentId", "public"."categories"."createdAt"
+2026-03-18 06:38:43.354 IST [10008] ERROR:  character with byte sequence 0xe2 0x98 0x81 in encoding "UTF8" has no equivalent in encoding "WIN1252"
+2026-03-18 06:38:43.354 IST [10008] CONTEXT:  unnamed portal parameter $4
+2026-03-18 06:38:43.354 IST [10008] STATEMENT:  INSERT INTO "public"."categories" ("id","name","slug","icon","createdAt") VALUES ($1,$2,$3,$4,$5) RETURNING "public"."categories"."id", "public"."categories"."name", "public"."categories"."slug", "public"."categories"."description", "public"."categories"."icon", "public"."categories"."parentId", "public"."categories"."createdAt"
+2026-03-18 06:38:43.354 IST [34532] ERROR:  character with byte sequence 0xf0 0x9f 0xa4 0x96 in encoding "UTF8" has no equivalent in encoding "WIN1252"
+2026-03-18 06:38:43.354 IST [34532] CONTEXT:  unnamed portal parameter $4
+2026-03-18 06:38:43.354 IST [34532] STATEMENT:  INSERT INTO "public"."categories" ("id","name","slug","icon","createdAt") VALUES ($1,$2,$3,$4,$5) RETURNING "public"."categories"."id", "public"."categories"."name", "public"."categories"."slug", "public"."categories"."description", "public"."categories"."icon", "public"."categories"."parentId", "public"."categories"."createdAt"
+2026-03-18 06:38:43.382 IST [30252] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:38:43.382 IST [16280] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:38:43.382 IST [22976] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:38:43.382 IST [34288] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:38:43.383 IST [10008] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:38:43.383 IST [26920] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:38:43.383 IST [34532] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:38:43.383 IST [22904] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:38:43.383 IST [12372] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:39:00.613 IST [5876] ERROR:  character with byte sequence 0xf0 0x9f 0x8e 0xa8 in encoding "UTF8" has no equivalent in encoding "WIN1252"
+2026-03-18 06:39:00.613 IST [5876] CONTEXT:  unnamed portal parameter $4
+2026-03-18 06:39:00.613 IST [5876] STATEMENT:  INSERT INTO "public"."categories" ("id","name","slug","icon","createdAt") VALUES ($1,$2,$3,$4,$5) RETURNING "public"."categories"."id", "public"."categories"."name", "public"."categories"."slug", "public"."categories"."description", "public"."categories"."icon", "public"."categories"."parentId", "public"."categories"."createdAt"
+2026-03-18 06:39:00.613 IST [36772] ERROR:  character with byte sequence 0xf0 0x9f 0x8c 0x90 in encoding "UTF8" has no equivalent in encoding "WIN1252"
+2026-03-18 06:39:00.613 IST [36772] CONTEXT:  unnamed portal parameter $4
+2026-03-18 06:39:00.613 IST [36772] STATEMENT:  INSERT INTO "public"."categories" ("id","name","slug","icon","createdAt") VALUES ($1,$2,$3,$4,$5) RETURNING "public"."categories"."id", "public"."categories"."name", "public"."categories"."slug", "public"."categories"."description", "public"."categories"."icon", "public"."categories"."parentId", "public"."categories"."createdAt"
+2026-03-18 06:39:00.613 IST [5448] ERROR:  character with byte sequence 0xf0 0x9f 0x93 0x8a in encoding "UTF8" has no equivalent in encoding "WIN1252"
+2026-03-18 06:39:00.613 IST [5448] CONTEXT:  unnamed portal parameter $4
+2026-03-18 06:39:00.613 IST [5448] STATEMENT:  INSERT INTO "public"."categories" ("id","name","slug","icon","createdAt") VALUES ($1,$2,$3,$4,$5) RETURNING "public"."categories"."id", "public"."categories"."name", "public"."categories"."slug", "public"."categories"."description", "public"."categories"."icon", "public"."categories"."parentId", "public"."categories"."createdAt"
+2026-03-18 06:39:00.613 IST [26984] ERROR:  character with byte sequence 0xf0 0x9f 0xa4 0x96 in encoding "UTF8" has no equivalent in encoding "WIN1252"
+2026-03-18 06:39:00.613 IST [26984] CONTEXT:  unnamed portal parameter $4
+2026-03-18 06:39:00.613 IST [26984] STATEMENT:  INSERT INTO "public"."categories" ("id","name","slug","icon","createdAt") VALUES ($1,$2,$3,$4,$5) RETURNING "public"."categories"."id", "public"."categories"."name", "public"."categories"."slug", "public"."categories"."description", "public"."categories"."icon", "public"."categories"."parentId", "public"."categories"."createdAt"
+2026-03-18 06:39:00.613 IST [10344] ERROR:  character with byte sequence 0xe2 0x98 0x81 in encoding "UTF8" has no equivalent in encoding "WIN1252"
+2026-03-18 06:39:00.613 IST [10344] CONTEXT:  unnamed portal parameter $4
+2026-03-18 06:39:00.613 IST [10344] STATEMENT:  INSERT INTO "public"."categories" ("id","name","slug","icon","createdAt") VALUES ($1,$2,$3,$4,$5) RETURNING "public"."categories"."id", "public"."categories"."name", "public"."categories"."slug", "public"."categories"."description", "public"."categories"."icon", "public"."categories"."parentId", "public"."categories"."createdAt"
+2026-03-18 06:39:00.613 IST [34884] ERROR:  character with byte sequence 0xf0 0x9f 0x93 0xb1 in encoding "UTF8" has no equivalent in encoding "WIN1252"
+2026-03-18 06:39:00.613 IST [34884] CONTEXT:  unnamed portal parameter $4
+2026-03-18 06:39:00.613 IST [34884] STATEMENT:  INSERT INTO "public"."categories" ("id","name","slug","icon","createdAt") VALUES ($1,$2,$3,$4,$5) RETURNING "public"."categories"."id", "public"."categories"."name", "public"."categories"."slug", "public"."categories"."description", "public"."categories"."icon", "public"."categories"."parentId", "public"."categories"."createdAt"
+2026-03-18 06:39:00.646 IST [34884] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:39:00.646 IST [22208] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:39:00.647 IST [33644] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:39:00.648 IST [26984] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:39:00.648 IST [5448] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:39:00.648 IST [5876] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:39:00.648 IST [10344] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:39:00.648 IST [30728] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:39:00.648 IST [36772] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:40:14.587 IST [35952] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:40:17.611 IST [14524] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:40:17.629 IST [6836] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:40:17.711 IST [28756] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-18 06:41:51.524 IST [7788] LOG:  received fast shutdown request
+2026-03-18 06:41:51.526 IST [7788] LOG:  aborting any active transactions
+2026-03-18 06:41:51.526 IST [28232] FATAL:  terminating connection due to administrator command
+2026-03-18 06:41:51.526 IST [28588] FATAL:  terminating connection due to administrator command
+2026-03-18 06:41:51.526 IST [18612] ERROR:  canceling statement due to user request
+2026-03-18 06:41:51.545 IST [7788] LOG:  background worker "logical replication launcher" (PID 18612) exited with exit code 1
+2026-03-18 06:41:51.549 IST [1112] LOG:  shutting down
+2026-03-18 06:41:51.551 IST [1112] LOG:  checkpoint starting: shutdown immediate
+2026-03-18 06:41:51.608 IST [1112] LOG:  checkpoint complete: wrote 115 buffers (0.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.016 s, sync=0.034 s, total=0.059 s; sync files=60, longest=0.002 s, average=0.001 s; distance=180 kB, estimate=6572 kB; lsn=0/2D0FD70, redo lsn=0/2D0FD70
+2026-03-18 06:41:51.636 IST [7788] LOG:  database system is shut down

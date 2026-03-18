@@ -1,0 +1,34 @@
+{
+  "name": "eduflow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Online Learning & Course Recommendation Platform - Monorepo",
+  "workspaces": [
+    "apps/web",
+    "apps/api"
+  ],
+  "scripts": {
+    "dev:api": "npm run start:dev --workspace=apps/api",
+    "dev:web": "npm run dev --workspace=apps/web",
+    "build:api": "npm run build --workspace=apps/api",
+    "build:web": "npm run build --workspace=apps/web",
+    "docker:up": "docker-compose -f infra/docker-compose.yml up -d",
+    "docker:down": "docker-compose -f infra/docker-compose.yml down",
+    "docker:build": "docker-compose -f infra/docker-compose.yml up --build"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "keywords": [
+    "edtech",
+    "online-learning",
+    "recommendation-engine",
+    "microservices",
+    "nestjs",
+    "nextjs",
+    "fastapi"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

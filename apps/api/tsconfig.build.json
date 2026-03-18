@@ -1,0 +1,10 @@
+{
+  "module": "@nestjs/config",
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "baseUrl": "src"
+  },
+  "include": ["src/**/*", "prisma/seed.ts"],
+  "exclude": ["node_modules", "dist", "test"]
+}
